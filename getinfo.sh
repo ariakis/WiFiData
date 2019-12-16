@@ -13,8 +13,8 @@ clear
 
 echo " ----- APs -----"
 
-python3 wepFinder.py $1
+python3 APinfo.py $1
 
 echo " ----- Clients -----"
 
-python3 probes.py $1
+python3 clientProbes.py $1
